@@ -13,6 +13,8 @@ public class AddTrainEntryDto {
 
     private int noOfSeats;
 
+
+
     public List<Station> getStationRoute() {
         return stationRoute;
     }
@@ -21,9 +23,12 @@ public class AddTrainEntryDto {
         this.stationRoute = stationRoute;
         this.departureTime = departureTime;
         this.noOfSeats = noOfSeats;
+
+
     }
 
     public AddTrainEntryDto() {
+
     }
 
     public void setStationRoute(List<Station> stationRoute) {
@@ -46,3 +51,4 @@ public class AddTrainEntryDto {
         this.noOfSeats = noOfSeats;
     }
 }
+

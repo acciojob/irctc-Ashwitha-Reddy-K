@@ -1,6 +1,5 @@
 package com.driver.EntryDto;
 
-
 import com.driver.model.Station;
 
 import java.util.List;
@@ -20,6 +19,8 @@ public class BookTicketEntryDto {
     private Station toStation;
 
     private int noOfSeats;
+
+
 
     public BookTicketEntryDto(List<Integer> passengerIds, Integer trainId, Station fromStation, Station toStation,int noOfSeats,Integer bookingPersonId) {
         this.passengerIds = passengerIds;
